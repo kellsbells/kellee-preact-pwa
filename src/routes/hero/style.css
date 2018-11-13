@@ -1,0 +1,28 @@
+.hero {
+  height: 100vh; 
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hero h1 {
+  font-size: 90px;
+  line-height: 1;
+  margin: 0;
+}
+
+@media (max-width: 400px) {
+  .hero h1 {
+    font-size: 70px;
+  }
+}
+
+.hero h2 {
+  margin: 0;
+  padding: 15px 0;
+  height: 37px;
+  font-size: 24px;
+}

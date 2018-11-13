@@ -1,0 +1,37 @@
+ul li {
+  list-style-type: none;
+}
+
+.projects {
+  padding: 120px 0 80px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h3 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-display: swap;
+  font-size: 56px;
+  margin: 0;
+  padding-bottom: 40px;
+  line-height: 1;
+}
+
+@media (max-width: 400px) {
+  .projects h3 {
+    font-size: 40px;
+  }
+}
+
+.projectsHeading {
+  max-height: 65px;
+}
+
+.projectsList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}

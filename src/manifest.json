@@ -1,0 +1,21 @@
+{
+  "name": "Kellee Martins - Front-End Engineer",
+  "short_name": "Kellee",
+  "start_url": "/",
+  "background_color": "#FF2362",
+  "theme_color": "#FF2362", 
+  "display": "standalone",  
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/icons/kellee-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/kellee-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
